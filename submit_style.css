@@ -1,0 +1,75 @@
+#submit  {background-color: white;}
+
+body {
+    line-height: 1.6em;
+    font-family: 'Helvetica';
+    font-weight: lighter;
+    color: #5D6063;
+    background-color: black;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    min-width: 320px;
+    position: relative;
+    z-index: 1;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    font-family: 'Syncopate';
+  /*  background-color: #eee; */
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 5px;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 100vh;
+  /*  border: 1px solid black;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+section h2 {
+  font-size:200px;
+  font-weight: lighter;
+  font-family: Helvetica;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px cyan;
+  opacity: 0.6;
+  transition: 0.3s;
+  position: absolute;
+}
+
+#submit h2:hover {opacity: 1;}
+
+/* letter-spacing: 2px*/
+#submit h2::before {
+content: 'S U B M I T';
+position: absolute;
+mix-blend-mode: difference;
+filter: blur(5px);
+
+}
+.neon-wrapper {
+display:inline-flex;
+filter: brightness(200%);
+overflow: hidden;
+}
