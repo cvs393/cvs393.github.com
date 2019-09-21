@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Syncopate';
+    font-family: 'Courier New';
     font-size: 22px;
     width: 100%;
 }
@@ -139,7 +139,7 @@ section h2 {
     font-family: 'Syncopate';
     font-kerning: normal;
     font-size: 6em;
-    color: #9AFEFF;
+    color: #9AFEFF; /*electric blue*/
     /*text-shadow: 2px 2px cyan;*/
 }
 
